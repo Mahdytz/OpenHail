@@ -1,3 +1,5 @@
+**About this fork:** I added a small experiment in [`demand_aware/`](demand_aware/README.md). It tests whether idle cars earn more when they wait where customers are likely to appear, using a simple last-hour rule and an XGBoost demand forecast. Everything else is the original OpenHail by Dr. Tommaso Schettini.
+
 # OpenHail: Electric Ride-Hailing Fleet Control
 
 OpenHail is a discrete-event [Gymnasium](https://gymnasium.farama.org/) environment for joint request assignment, repositioning, and charging control in electric ride-hailing fleets. It represents battery dynamics and finite-capacity charging queues, with configurable decision epochs for policy experiments. Travel times use spatial distances and a constant speed; network congestion and route choice are outside the current model.
